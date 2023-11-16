@@ -86,7 +86,6 @@ def decision_boundary_display_from_estimator(
     Read more in the :ref:`User Guide <visualizations>`.
 
     note: `DecisionBoundaryDisplay.from_estimator`를 multiclass에 `decision_function` 적용 가능하도록 수정
-    - multiclass에 `predict_proba` 지정 시 sklearn.calibration.CalibratedClassifierCV 사용
     - `decision_normalize_method` 인자 추가 (decision_function 결과 정규화 방식)
     - `multiclass_mix_rest` 인자 추가 (멀티클래스 예측 클래스 외 나머지 클래스의 색상 표시 여부)
     - `multiclass_target_index` 인자 추가 (멀티클래스 특정 타겟의 결과값만 표시)
